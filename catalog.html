@@ -19,7 +19,19 @@
                 <li><a href="#">поиск</a></li>
                 <li><a href="#">Вход</a></li>
                 <li><a href="#">2 товара</a></li>
-            </ul>
+                <div>
+                    <table border="1">
+                        <tr>
+                            <td>&#9747;</td><td><img src="img/ice-cream-1.jpg"><td>Пломбир с апельсиновым джемом</td></td><td>1,5 кг х 200 руб.</td><td>300 руб.</td>
+                        </tr>
+                        <tr>
+                            <td>&#9747;</td><td><img src="img/ice-cream-3.jpg"><td>Клубничный пломбир с присыпкой из белого шоколада</td></td><td>1,5 кг х 300 руб.</td><td>450 руб.</td>
+                        </tr>
+                    </table>
+                    <h4>Итого: 750 руб.</h4>
+                    <button type="submit" value="Оформить заказ">Оформить заказ</button>
+                </div>
+               </ul>
         </div>
         <div>
             С 10 до 20, ежедневно
@@ -43,6 +55,10 @@
                 <legend>Сортировка:</legend>
                 <select id="sorting">
                     <option value="popular">по популярности</option>
+                    <option value="cheap">сначала недорогие</option>
+                    <option value="expensive">сначала дорогие</option>
+                    <option value="fatness">по жирности</option>
+                </select>
                 </fieldset>
                 <fieldset>
                     <legend>Цена: 100 руб. – 500 руб.</legend>
@@ -95,6 +111,7 @@
                     <a href="#"><img src="img/ice-cream-3.jpg" alt="strawberry"></a>
                     <div>355 р/кг</div>
                     <a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
+                <button type="submit" value="Быстрый просмотр">Быстрый просмотр</button>
                 </div>
                 <div>
                     <a href="#"><img src="img/ice-cream-4.jpg" alt="caramel"></a>
@@ -168,7 +185,7 @@
         </ul>
         <div>
             <img src="img/html-logo.png" width="100" height="50" alt="HTML Academy">
-            <p>Сделано в<a href="https://htmlacademy.ru">HTML Academy</a>©2017</p>
+            <p>Сделано в <a href="https://htmlacademy.ru">HTML Academy</a> © 2017</p>
         </div>
     </footer>
 </body>
